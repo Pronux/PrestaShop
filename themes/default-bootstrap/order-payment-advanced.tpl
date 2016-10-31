@@ -74,7 +74,7 @@
                                 <span class="payment_option_cta">
                                     {$paymentOption->getCallToActionText()}
                                 </span>
-                                <span class="pull-right payment_option_selected">
+                                <span class="pull-right payment_option_selected" style="display: none;">
                                     <i class="icon-check"></i>
                                 </span>
                             </a>
@@ -141,4 +141,4 @@
     <!-- end TNC -->
 
     {include file="$tpl_dir./shopping-cart-advanced.tpl"}
-{/if}
+    {/if}
